@@ -1,0 +1,23 @@
+{
+  "name": "fire-yolo-safety-frontend",
+  "version": "1.0.0",
+  "description": "基于 YOLOv8 的消防安全风险分析与预警系统 - 前端",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.7.0",
+    "@element-plus/icons-vue": "^2.3.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+venv/
+
+# 模型权重（自训练，体积大，按需提交）
+weights/*.pt
+
+# 运行产物
+uploads/*
+results/*
+database/*.db
+backend/runs/
+*.pt
+
+# 保留目录
+!uploads/.gitkeep
+!results/.gitkeep
+!database/.gitkeep
+!weights/README.md
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+
+# 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
